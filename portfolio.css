@@ -1,0 +1,37 @@
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+}
+#top ul{
+    background: linear-gradient(to right,rgb(252, 205, 212), rgb(152, 223, 245));
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 10px;
+}
+#top li{
+    display: inline-block;
+    margin-left: 20px;
+    background: linear-gradient(to bottom, rgb(196, 235, 247), rgb(164, 182, 245));
+    padding: 5px;
+}
+#top li:hover{
+    background: linear-gradient(to top, rgb(196, 235, 247), rgb(164, 182, 245));
+}
+#top a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: rgb(235, 252, 255);
+}
+#top a:hover{
+    color: rgb(95, 71, 231);
+}
+#content{
+    width: 100%;
+    height: 200px;
+    color: white;
+    font-family:cursive;
+    text-align: center;
+    padding-top: 170px;
+}
